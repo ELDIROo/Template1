@@ -1,0 +1,406 @@
+@font-face {
+    font-family: oswald;
+    src: url('../fonts/Oswald-VariableFont_wght.ttf');
+
+@font-face {
+    font-family: opensans;
+    src: url('../fonts/OpenSans-VariableFont_wdth,wght.ttf');
+}
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+/*Start of header*/
+}
+header{
+    background-color: black;
+    padding: 3px;
+}
+header a {
+    color: white;
+    display: inline-block;
+    padding: 6px 12px;
+
+}
+.searchicon{
+    float: right;
+    
+}
+header a:hover{
+    color: black;
+    background-color: lightgray;
+}
+
+/*Start of Section*/
+section{
+    text-align: center;
+    padding: 45px 0px;
+}
+section h1 {
+    font-family: oswald;
+    font-size: 50px;
+
+
+
+}
+section h3{
+    padding: 20px 0px;
+    font-family: oswald;
+    font-size: 16px;
+    font-weight: lighter;
+
+
+}
+section h3 span{
+    background-color: black;
+    color: white;
+    padding: 0px 7px;
+}
+
+/*Start of nav*/
+nav{
+    
+}
+nav div {
+    position: absolute;
+    top: 90%;
+    left: 50px;
+    color: white;
+}
+nav div h3{
+    font-size: 30px;
+    font-family: oswald;
+    letter-spacing: 5px;
+    font-weight: lighter;
+} 
+nav div p{
+    font-size: 70px;
+    font-family: oswald;
+    padding: 10px 0px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+nav div button {
+    padding: 17px;
+    font-size: 18px;
+    background-color: rgba(157,159,159,0.6);
+}
+nav div button:hover{
+    background-color: lightgray;
+}
+/*Start of main*/
+main {
+    
+
+}
+main #asideleft{
+    background-color: #f1f1f1;
+    display: inline-block;
+    width: 70%;
+    font-family: oswald;
+    text-align: center;
+    padding: 20px;
+}
+main #asideleft article{
+    background-color:  black;
+    padding: 10px;
+}
+main #asideleft article p {
+    padding:0px 0px 20px 0px;
+}
+main #asideleft article p span {
+    color: gray;
+}
+main #asideleft article h3{
+    padding: 15px;
+    color: white;
+}
+main #asideleft article img {
+    padding: 0px 20px 20px 20px;
+}
+main #asideleft article .pra {
+    font-family: opensans;
+    text-align: justify;
+    padding: 5px 20px;
+}
+main #asideleft article .pra span{
+    font-weight: bold;
+    color: white;
+}
+main #asideleft article .but1{
+    float: left;
+    padding: 25px 10px;
+}
+main #asideleft article .but2{
+    float: right;
+    padding: 25px 10px;
+}
+main #asideleft article div .but1  {
+    background-color: white;
+    padding: 10px;
+    border: 1.5px solid gray;
+    font-size: 14px;
+    font-weight: bold;
+    display: inline-block;
+}
+main #asideleft article div .but2{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border: 1px solid gray;
+    font-weight: bold;
+    display: inline-block;
+}
+main #asideleft article .buttons .but1:hover{
+    background-color: lightgray;
+    border: lightgray;
+}
+main #asideleft article .buttons .but2:hover{
+    background-color: lightgray;
+    color: black;
+    border: lightgray;
+}
+main #asideleft article .buttons{
+    padding: 20px;
+}
+
+main #asideleft article .smoke{
+    padding: 40px 30px 20px 10px;
+}
+main #asideleft article .sidep{
+    float: left;
+    font-family: oswald;
+    padding: 60px 0px 0px 10px;
+
+}
+.clear {
+    clear: both;
+    content: " ";
+}
+
+.smoke{
+    float: left;
+}
+
+
+
+
+
+main{
+    background-color: #f1f1f1;
+}
+main #asideright{
+    background-color: #f1f1f1;
+    display: inline-block;
+    width: 30%;
+    float: right;
+    padding: 20px;
+    font-family: oswald;
+    
+    
+}
+main #asideright .article{
+    background-color: black;
+}
+main #asideright .article h1,p{
+    color: white;
+}
+
+main #asideright .article h1{
+    float: left;
+    padding: 10px 20px 0px 20px;
+    font-family: oswald;
+    font-weight: lighter;
+}
+main #asideright .article p{
+    float: left;
+    text-align: left;
+    padding: 20px 20px 20px 20px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+main #asideright .head{
+    padding-top: 20px;
+}
+main #asideright .head p{
+    background-color: black;
+    text-align: left;
+    padding: 15px;
+    font-size: 20px;
+}
+main #asideright .head ol nav {
+    background-color: white;
+    
+}
+main #asideright .head ol nav:hover{
+    background-color: gray;
+}
+main #asideright .head ol nav h6 {
+    padding: 5px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: lighter;
+}
+main #asideright .head ol nav .secp {
+    padding: 15px 15px 5px 15px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: lighter;
+}
+main #asideright .head ol nav .img1{
+    position: relative;
+    padding: 10px 20px 10px 10px;
+}
+main #asideright .head .img1{
+    float: left;
+    
+}
+main #asideright nav{
+    padding: 20px 0px 0px 0px;
+}
+main #asideright nav p {
+    background-color: black;
+    text-align: left;
+    font-size: 20px;
+    padding: 15px;
+}
+main #asideright .add {
+    
+    background-color: #f1f1f1;
+    border: 15px solid white;
+}
+main #asideright .add p{
+    color: black;
+    text-align: center;
+    font-weight: lighter;
+    padding: 90px;  
+}
+
+main #asideright .sides {
+    background-color: white;
+    float: left;
+    padding: 10px;
+    font-size: 14px;
+}
+main #asideright span{
+    background-color: #f1f1f1;
+    display: inline-block;
+    margin: 7px;
+    padding: 1px 8px;
+}
+main #asideright #black{
+    background-color: black;
+    color: white;
+}
+
+main #asideright .photos{
+    background-color: white;
+    display: inline-block;
+    padding: 10px;
+    
+}
+
+main #asideright .icons{
+    background-color: white;
+    padding: 10px ;
+    text-align: left;
+}
+main #asideright .icons a{
+    color: black;
+    font-size: 24px;   
+}
+
+main #asideright .pmail{
+    background-color: white;
+    padding: 15px;
+}
+main #asideright .pmail p{
+    color: black;
+    padding: 0px 0px 15px 0px;
+    font-weight: lighter;
+    text-align: left;
+}
+main #asideright .pmail input{
+    width: 100%;
+    padding: 10px ;
+    text-align: left;
+    font-size: 15px;
+    border: 1px solid rgb(165, 163, 163);
+}
+main #asideright .pmail button{
+    width: 100%;
+    padding: 12px ;
+    background-color: #f44336;
+    border: none;
+    color: white;
+    font-size: 15px;
+    margin: 10px 0px;
+}
+main #asideright .pmail button:hover{
+    background-color: lightgray;
+    color: black;
+}
+.clear {
+    clear: both;
+    content: " ";
+}
+/*Start of footer*/
+footer{
+    background-color: #616161;
+    color: white;
+    padding: 30px;
+}
+footer button {
+    font-family: opensans;
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+footer button i {
+    padding: 0px 10px 0px 0px;
+}
+footer button:hover{
+    background-color: lightgray;
+    border: none;
+    color: black;
+}
+footer p{
+    font-family: opensans;
+    font-size: 20px;
+    padding: 30px 0px;
+
+}
+footer p a {
+    color: white;
+    
+
+}
+
+
+@media screen and (max-width : 600px) {
+    nav div {
+        top: 40%;
+    }
+    nav div p{
+        font-size: 30px;
+
+    }
+    nav div button {
+        padding: 13px;
+        font-size: 15px;
+    }
+    main #asideleft{
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    main #asideright{
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    
+}
